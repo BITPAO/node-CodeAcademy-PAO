@@ -23,7 +23,9 @@ const students = [
   { id: 3, name: "Antanas", age: 22 },
 ];
 
-app.get("/students", (req, res) => {});
+app.get("/students", (req, res) => {
+  res.send(students);
+});
 
 // sukuriame route "/about" (kelia) kurio metu grazinsime teksta "About page"
 app.listen(port, () => {
