@@ -1,6 +1,6 @@
 const express = require("express"); // importuojam express moduli
 const app = express(); // sukuriam nauja express aplikacija
-const port = 3000; // nurodom port'a, kuriame bus paleista aplikacija
+const port = 3006; // nurodom port'a, kuriame bus paleista aplikacija
 
 // sukuriame route "/" (kelia) kurio metu grazinsime teksta "Hello World!"
 app.get("/", (req, res) => {
@@ -17,7 +17,11 @@ app.get("/cars", (req, res) => {
 });
 
 // sukuriame API endpoint'a "/students", kuris grazins masyva "students"
-const students = ["Jonas", "Petras", "Antanas", "Kazys"];
+const students = [
+  { name: "Jonas", surname: "Jonaitis" },
+  { name: "Petras", surname: "Petraitis" },
+  { name: "Antanas", surname: "Antanaitis" },
+];
 
 app.get("/students", (req, res) => {
   res.send(students);
