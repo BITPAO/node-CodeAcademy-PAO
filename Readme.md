@@ -2,10 +2,10 @@
 
 commands for terminal for MAC:
 
-touch name.html -> create new file
-ls -> list of folders and files
-cd -> change directory
-cd ../ -> move back to previous directory
+touch name.html - create new file
+ls - list of folders and files
+cd - change directory
+cd ../ - move back to previous directory
 
 main commands
 git add \* arba git add . - prideda failus i git lokalia sistema
