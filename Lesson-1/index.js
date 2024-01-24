@@ -17,14 +17,14 @@ app.get("/cars", (req, res) => {
 });
 
 // sukuriame API endpoint'a "/students", kuris grazins masyva "students"
-const students = [
-  { id: 1, name: "Jonas", age: 20 },
-  { id: 2, name: "Petras", age: 21 },
-  { id: 3, name: "Antanas", age: 22 },
+const studentnames = [
+  { name: "Jonas", surname: "Jonaitis" },
+  { name: "Petras", surname: "Petraitis" },
+  { name: "Antanas", surname: "Antanaitis" },
 ];
 
-app.get("/students", (req, res) => {
-  res.send(students);
+app.get("/studentnames", (req, res) => {
+  res.send(studentnames);
 });
 
 // sukuriame route "/about" (kelia) kurio metu grazinsime teksta "About page"
