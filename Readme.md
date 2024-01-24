@@ -2,14 +2,18 @@
 
 commands for terminal for MAC:
 
-touch name.html - create new file
-ls - list of folders and files
-cd - change directory
-cd ../ - move back to previous directory
+touch name.html - create new file <br/>
+ls - list of folders and files <br/>
+cd - change directory <br/>
+cd ../ - move back to previous directory <br/>
 
-main commands
-git add \* arba git add . - prideda failus i git lokalia sistema
+Main update readme.md commands:
 
-git commit -m "komentaras" - pakeitimų komentaras. Turi atspindėti kas buvo pakeista, pridėta, išimta ir t.t. t.y. kas pasikeis, kai pridėsim pridėtus failus
+git add \* arba git add . - prideda failus i git lokalia sistema <br/>
+git commit -m "komentaras" - pakeitimų komentaras. Turi atspindėti kas buvo pakeista, pridėta, išimta ir t.t. t.y. kas pasikeis, kai pridėsim pridėtus failus <br/>
+git push - išstumiam lokalius pakeitimus į GitHub sistemą <br/>
 
-git push - išstumiam lokalius pakeitimus į GitHub sistemą
+Main \*.js commands:
+node index.js - paleidzia Javascript faila <br/>
+.gitignore - failas kuriame aprasome ignoruojamus failus <br/>
+npm install - suraso modulius (dependances) is package.json failo <br/>
