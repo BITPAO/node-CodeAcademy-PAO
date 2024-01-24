@@ -17,3 +17,5 @@ Main \*.js commands:
 node index.js - paleidzia Javascript faila <br/>
 .gitignore - failas kuriame aprasome ignoruojamus failus <br/>
 npm install - suraso modulius (dependances) is package.json failo <br/>
+npm init - sukurti package.json faila <br/>
+npm install express - suinstaluoja express.js platforma <br/>
