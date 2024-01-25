@@ -19,3 +19,7 @@ node index.js - paleidzia Javascript faila <br/>
 npm install - suraso modulius (dependances) is package.json failo <br/>
 npm init - sukurti package.json faila <br/>
 npm install express - suinstaluoja express.js platforma <br/>
+
+nodemon app makes localhost restart server when anything changes..
+
+sudo npm install -g nodemon // comm and needs sudo infront for avoiding errors with installation <br/>
