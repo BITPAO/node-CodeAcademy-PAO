@@ -23,3 +23,5 @@ npm install express - suinstaluoja express.js platforma <br/>
 nodemon app makes localhost restart server when anything changes..
 
 sudo npm install -g nodemon // comm and needs sudo infront for avoiding errors with installation <br/>
+sudo npm install cors // Cors instaliacija
+npm start // paleidzia aplikacija (nepamirsti ideti pacakge.json script skilti "start" : "node index.js") <br/>

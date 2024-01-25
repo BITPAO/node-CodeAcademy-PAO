@@ -1,6 +1,9 @@
 const express = require("express"); // importuojam express moduli
+const cors = require("cors"); // importuojam cors moduli
 const app = express(); // sukuriam nauja express aplikacija
 const port = 3006; // nurodom port'a, kuriame bus paleista aplikacija
+
+app.use(cors()); // naudojam cors moduli
 
 // sukuriame route "/" (kelia) kurio metu grazinsime teksta "Hello World!"
 app.get("/", (req, res) => {
